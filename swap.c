@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Function to swap two numbers
+//  param1 variable X
+//  param2 variable y
 void swap (int *x, int *y)
 {
 	int temp = *x;
