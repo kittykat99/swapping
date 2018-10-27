@@ -9,7 +9,8 @@ int swap(int *x, int *y)   // function for swapping for 2 numbers.
 }
 void main()               //main function for reading and passing parameters for SWAP function. 
 {
-  int no1,no2;
+  int no1,no2;   
+ // reading 2 values from user. 
   printf("\n Enter 2 numbers \n");
   scanf("%d%d", &no1, &no2);
   
