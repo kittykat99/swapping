@@ -14,7 +14,8 @@ void main()               //main function for reading and passing parameters for
   scanf("%d%d", &no1, &no2);
   
   printf("\n The numbers before swapping are: \n A: %d \t B: %d",no1,no2);
-  
+ 
+  // calling swapping function. 
   swap(&no1,&no2);
   
   printf("\n The numbers after swapping are: \n A: %d \t B: %d",no1,no2);
