@@ -1,6 +1,7 @@
 // C program to swap 2 variables without a temporary variable. 
 
 #include<stdio.h> 
+#include<conio.h>
 void swap(int *x, int *y)   // function for swapping for 2 numbers. 
 {
   *x=*x+*y;            
@@ -9,6 +10,7 @@ void swap(int *x, int *y)   // function for swapping for 2 numbers.
 }
 void main()               //main function for reading and passing parameters for SWAP function. 
 {
+ clrscr();
   int no1,no2;   
  // reading 2 values from user. 
   printf("\n Enter 2 numbers \n");
@@ -22,4 +24,5 @@ void main()               //main function for reading and passing parameters for
   
  // displaying numbers after swapping.
   printf("\n The numbers after swapping are: \n A: %d \t B: %d",no1,no2);
+ getch();
 }
